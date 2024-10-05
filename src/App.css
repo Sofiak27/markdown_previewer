@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 1rem;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #87b5b5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container {
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor_label {
+  margin: 0;
+  background-color: #4aa3a3;
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+}
+
+#editor {
+  border: 1px solid #1d2f2f;
+}
+
+.previewerAndLabel {
+  min-height: 700px;
+  min-width: 700px;
+  background-color: white;
+  border: 1px solid #1d2f2f;
+}
+
+.previewer_label {
+  margin: 0;
+  background-color: #4aa3a3;
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+}
+
+#preview {
+  padding: 0.3rem;
+  color: black;
+}
+
+@media (max-width: 745px) {
+  .previewerAndLabel {
+    min-width: 600px;
+  }
+
+  .editor_label {
+    width: 400px !important;
+  }
+  
+  #editor {
+    width: 400px;
+  }
+}
+
+@media (max-width: 650px) {
+  .previewerAndLabel {
+    min-width: 550px;
+  }
+
+  .editor_label {
+    width: 450px !important;
+  }
+  
+  #editor {
+    width: 450px;
+  }
+}
+
+@media (max-width: 585px) {
+  .previewerAndLabel {
+    min-width: 450px;
+  }
+
+  .editor_label {
+    width: 450px !important;
+  }
+  
+  #editor {
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  .previewerAndLabel {
+    min-width: 400px;
+  }
+
+  .editor_label {
+    width: 400px !important;
+  }
+  
+  #editor {
+    width: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  .previewerAndLabel {
+    min-width: 350px;
+  }
+
+  .editor_label {
+    width: 350px !important;
+  }
+  
+  #editor {
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .previewerAndLabel {
+    min-width: 300px;
+  }
+
+  .editor_label {
+    width: 300px !important;
+  }
+  
+  #editor {
+    width: 300px;
+  }
+}
